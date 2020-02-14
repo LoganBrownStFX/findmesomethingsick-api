@@ -1,0 +1,18 @@
+{
+  "name": "findmesomethingsick-api",
+  "version": "1.0.0",
+  "description": "Find me something sick api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "author": "Logan Brown",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2" 
+  }
+}
