@@ -1,5 +1,5 @@
 const mongodb = require("mongodb");
-const db_string = "mongodb+srv://admin:admin@cluster0-vzxp1.mongodb.net/test?retryWrites=true&w=majority";
+const db_string = process.env.MONGODB_URI
 
 module.exports = (callback) => {
     var MongoClient = mongodb.MongoClient;
